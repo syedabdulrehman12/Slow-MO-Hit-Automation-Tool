@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+artifacts/
+/scene_dataset/images/
+/_monkey_pre_*.png
+/monkey_burst_*.png
+*.pt
+.env
+/adb.exe

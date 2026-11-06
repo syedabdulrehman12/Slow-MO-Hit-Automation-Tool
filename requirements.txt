@@ -1,0 +1,5 @@
+airtest
+pocoui
+opencv-python
+numpy
+ultralytics>=8.3,<9

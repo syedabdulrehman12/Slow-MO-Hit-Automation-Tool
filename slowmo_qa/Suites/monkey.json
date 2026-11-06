@@ -1,0 +1,13 @@
+[
+  {"name": "Launch and settle", "type": "wait", "seconds": 3},
+  {"name": "Initial screenshot", "type": "screenshot", "file": "monkey_00_start.png"},
+  {"name": "Confirm process at start", "type": "assert_process"},
+  {"name": "Run monkey test for 30 minutes",
+   "type": "monkey",
+   "duration_s": 1800,
+   "inputs_per_burst": 9600,
+   "tap_probability": 0.5,
+   "swipe_probability": 0.5,
+   "identical_bursts_before_stuck": 8},
+  {"name": "No crash after monkey run", "type": "assert_no_crash"}
+]

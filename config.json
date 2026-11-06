@@ -1,0 +1,13 @@
+{
+  "package": "com.gdm.slowmo",
+  "activity": "",
+  "device_serial": "",
+  "screenshot_after_launch_seconds": 5,
+  "action_delay_seconds": 1.0,
+  "screen_size": [1080, 2340],
+  "coordinates_are_normalized": true,
+  "poco_enabled": false,
+  "airtest_enabled": true,
+  "artifact_dir": "artifacts",
+  "auto_dismiss_swipe_lock": true
+}

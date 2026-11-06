@@ -1,0 +1,5 @@
+[
+  {"name": "Screenshot main menu", "type": "screenshot", "file": "mm_00_menu.png"},
+  {"name": "Dump UI", "type": "dump_ui", "file": "mm_ui.xml"},
+  {"name": "Wait for menu to settle", "type": "assert_screen", "max_diff_ratio": 0.02}
+]

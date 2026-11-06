@@ -1,0 +1,8 @@
+[
+  {"name": "Capture splash", "type": "screenshot", "file": "tut_00_splash.png"},
+  {"name": "Wait for launch settle", "type": "wait", "seconds": 3},
+  {"name": "Capture post-settle", "type": "screenshot", "file": "tut_01_settled.png"},
+  {"name": "Confirm process alive", "type": "assert_process"},
+  {"name": "Dump UI for calibration", "type": "dump_ui", "file": "tut_ui.xml"},
+  {"name": "No crash in logcat", "type": "assert_no_crash"}
+]

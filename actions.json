@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Capture initial game screen",
+    "type": "screenshot",
+    "file": "02_initial_screen.png"
+  },
+  {
+    "name": "Verify game process remains active",
+    "type": "assert_process"
+  },
+  {
+    "name": "Dump accessible Android UI hierarchy",
+    "type": "dump_ui",
+    "file": "ui_hierarchy.xml"
+  }
+]

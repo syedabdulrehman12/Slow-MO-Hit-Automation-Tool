@@ -1,0 +1,13 @@
+[
+  {"name": "Wait for gameplay", "type": "wait", "seconds": 45},
+  {"name": "Baseline screenshot", "type": "screenshot", "file": "gp_00_before_tap.png"},
+  {"name": "Tap to throw knife", "type": "tap", "point": [0.5, 0.7]},
+  {"name": "Let the throw resolve", "type": "wait", "seconds": 1.5},
+  {"name": "Post-tap screenshot", "type": "screenshot", "file": "gp_01_after_tap.png"},
+  {"name": "Screen reacted to tap", "type": "assert_screen",
+   "before_file": "gp_00_before_tap.png",
+   "after_file": "gp_01_after_tap.png",
+   "min_diff_ratio": 0.05},
+  {"name": "Game still running", "type": "assert_process"},
+  {"name": "No crash", "type": "assert_no_crash"}
+]
